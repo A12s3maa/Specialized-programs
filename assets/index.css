@@ -1,0 +1,141 @@
+
+
+h1{
+    text-align : center;
+    color :  #DF5D0F;
+    font-family:serif;
+    font-size:32px;
+    }
+
+
+    #one{
+      font-size:20px;
+      font-family: sans-serif ;
+    }
+
+    #two{
+      font-size:20px;
+      font-family: sans-serif ;
+    }
+    #three{
+      font-size:20px;
+      font-family: sans-serif ;
+    }
+
+    
+    #one::first-line {
+      color: #F3B451;
+      text-decoration : underline;
+      font-family: 'Times New Roman', Times, serif ;
+      font-size:28px;
+      }
+    #two::first-line{
+      color:#F3B451;
+      text-decoration : underline;
+      font-family:'Times New Roman', Times, serif ;
+      font-size:28px;
+    
+    
+    }
+    
+    #three::first-line{
+      color:#F3B451;
+      text-decoration : underline;
+      font-family:'Times New Roman', Times, serif;
+      font-size:28px;
+    }
+     
+    h2{
+    text-align : center;
+    color: #F68518;
+    font-family:italic;
+    font-size:30px
+    }
+    
+    body{
+  
+    padding:20px;
+    border:30px solid #9D420A;
+    }
+
+    /*  previous and next   */
+    
+    a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px;
+      }
+    
+    a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .previous {
+      background-color: #e87809;
+      color: rgba(255, 255, 255, 0.882);
+    }
+    
+    .next {
+      background-color: #f6a504bd;
+      color: rgb(255, 255, 255);
+    }
+    
+    .round {
+      border-radius: 50%;
+    }
+    
+    .section{
+    min-height:100vh;
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    }
+    
+    
+    .title{
+    font-size:3rem;
+    margin:2rem 0rem;
+    }
+    .btn{
+      display: inline-block;
+      margin-top: 1rem;
+      color: #F5F0B7;
+      padding: .8rem 3rem;
+      border: .2rem solid #9D420A;
+      cursor: pointer;
+      font-size: 1.7rem;
+      background: #F68518;
+  }.btn:hover{
+      color: #fff;
+      background: #9D420A;
+  }
+.contact .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1em;
+  align-items: center;
+ 
+}
+
+.book .row form{
+  flex: 1 1 20rem;
+  padding: 0rem 10rem;
+  box-shadow: 0 1rem 2rem rgba(176, 100, 28, 0.821);
+  border-radius: .2rem;
+}
+.book .row form .inputdiv input{
+  width: 100%;
+  padding: .5rem;
+  border: .2rem solid rgba(237, 140, 13, 0.642);
+  font-size: 1.2rem;
+  color: #4f3d04;
+  text-transform: none;
+}
+.book .row form .inputdiv h3{
+  font-size: 1.5rem;
+  color: #ef720c;
+}
+
